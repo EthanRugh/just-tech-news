@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
+    "test": "jest",
     "start": "node server.js"
   },
   "repository": {
@@ -25,7 +26,7 @@
     "express-session": "^1.17.2",
     "mysql2": "^2.3.3",
     "sequelize": "^6.14.0",
-    "test": "jest"
+    "test": "^0.6.0"
   },
   "description": "",
   "devDependencies": {
